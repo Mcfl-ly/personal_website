@@ -1,0 +1,90 @@
+img {
+    width: 9vh;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+body {
+    font-family: Lucida 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
+.container {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+li {
+    display: inline-block;
+    margin-top: 4vh;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+ul {
+    margin-left: 80vh;
+}
+
+.carousel-item p {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+
+header {
+    display: inline;
+    width: 100vh;
+    height: 100vh;
+}
+
+header p {
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.apresentacao {
+    margin-top: 15vh;
+}
+
+h1 {
+    margin-bottom: 1vh;
+
+}
+
+.linha {
+    margin-top: 2vh;
+    width: 100%;
+    border-top: 3px solid white;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+
+    padding: 29px 15px 23px 15px;
+
+}
+
+a:hover {
+    background-color: purple;
+
+}
+
+span {
+    color: purple !important;
+}
