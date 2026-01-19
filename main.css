@@ -81,10 +81,58 @@ a {
 }
 
 a:hover {
-    background-color: purple;
+    background-color: rgb(128, 0, 128);
 
 }
 
 span {
     color: purple !important;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    ul {
+        margin-left: 30vh;
+    }
+
+    header {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+        float: left;
+        padding: 15px 0px;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(128, 0, 128, 0.4);
+        width: 30vh;
+        height: 13vh;
+        overflow: visible;
+        border: none;
+        border-radius: 7%;
+    }
+
+    .dropdown-item {
+        color: white;
+        top: 100%;
+        padding: 5px 10px;
+        display: inline-block;
+    }
+
+    .dropdown-item:active {
+        background-color: rgb(128, 0, 128);
+        color: white;
+    }
+
+    button {
+        background-color: rgb(26, 26, 26);
+        border: none;
+    }
+
+
 }
