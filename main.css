@@ -105,34 +105,45 @@ span {
     .dropdown {
         display: block;
         float: left;
-        padding: 15px 0px;
+        padding: 1vh 0px;
     }
 
     .dropdown-menu {
-        background-color: rgba(128, 0, 128, 0.4);
-        width: 30vh;
-        height: 13vh;
+        background-color: rgba(128, 0, 128, 1);
+        width: 10vh;
+        height: 30vh;
         overflow: visible;
         border: none;
         border-radius: 7%;
+
     }
 
-    .dropdown-item {
-        color: white;
-        top: 100%;
-        padding: 5px 10px;
-        display: inline-block;
-    }
+    /* .dropdown-menu.show {
+        display: block;
+        flex-direction: column;
+        overflow: visible;
+        height: 30vh;
+        width: 10vh; */
+}
 
-    .dropdown-item:active {
-        background-color: rgb(128, 0, 128);
-        color: white;
-    }
+.dropdown-item {
+    color: white;
+    top: 100%;
+    padding: 0.25vh 2vh;
 
-    button {
-        background-color: rgb(26, 26, 26);
-        border: none;
-    }
+
+
+}
+
+.dropdown-item:active {
+    background-color: rgb(128, 0, 128);
+    color: white;
+}
+
+button {
+    background-color: rgb(26, 26, 26);
+    border: none;
+}
 
 
 }
