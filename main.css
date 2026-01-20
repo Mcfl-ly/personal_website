@@ -93,6 +93,10 @@ span {
     display: none;
 }
 
+button {
+    display: none;
+}
+
 @media (max-width: 991px) {
     ul {
         margin-left: 30vh;
@@ -136,6 +140,7 @@ span {
     button {
         background-color: rgb(26, 26, 26);
         border: none;
+        display: block;
     }
 
 
