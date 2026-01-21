@@ -1,10 +1,10 @@
 img {
-    width: 9vh;
+    width: 8vh;
     border-radius: 100px;
     float: left;
     margin-right: 10px;
+    margin-top: 3px;
 }
-
 
 
 body {
@@ -40,7 +40,8 @@ ul {
 }
 
 footer {
-    margin-bottom: 30px;
+    margin-top: 54vh;
+    font-size: 0.9rem;
 }
 
 
@@ -66,7 +67,7 @@ h1 {
 }
 
 .linha {
-    margin-top: 2vh;
+    margin-top: 1vh;
     width: 100%;
     border-top: 3px solid white;
 }
@@ -86,7 +87,7 @@ a:hover {
 }
 
 span {
-    color: purple !important;
+    color: rgb(158, 0, 158) !important;
 }
 
 .dropdown {
@@ -96,6 +97,11 @@ span {
 button {
     display: none;
 }
+
+
+
+/* troca de visualização */
+
 
 @media (max-width: 991px) {
     ul {
@@ -113,15 +119,14 @@ button {
     }
 
     .dropdown-menu {
-        background-color: rgba(128, 0, 128, 1);
-        width: 5vh;
+        background-color: rgba(26, 26, 26, 1);
+        width: 5vw;
         height: 30vh;
         overflow: visible;
-        border: none;
+        border: solid 1px white;
         border-radius: 7%;
 
     }
-
 
     .dropdown-item {
         color: white;

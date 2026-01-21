@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.container {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.linha {
+    margin-top: 1vh;
+    width: 100%;
+    border-top: 3px solid white;
+}
+
+footer {
+    margin-top: 54vh;
+    font-size: 0.9rem;
+    text-align: center;
+}
