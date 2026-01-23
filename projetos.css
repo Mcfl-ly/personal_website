@@ -15,7 +15,52 @@ h1 {
 }
 
 footer {
-    margin-top: 54vh;
+    margin-top: 10vh;
     font-size: 0.9rem;
     text-align: center;
+}
+
+.proj1 .proj1_slide {
+    width: 50%;
+    display: inline;
+    float: right;
+    margin-bottom: 1vh;
+
+}
+
+.proj1 .textos {
+    float: left;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.proj2 .proj2_slide {
+    width: 50%;
+    display: inline;
+    float: left;
+    margin-bottom: 1vh;
+
+}
+
+.proj2 .textos {
+    float: right;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.proj3 .textos {
+    float: left;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.proj3 img {
+    width: 50%;
+    display: inline;
+    float: left;
+    margin-bottom: 1vh;
+
 }
