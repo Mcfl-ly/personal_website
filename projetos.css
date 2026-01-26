@@ -1,6 +1,11 @@
+body {
+    font-size: 1rem;
+}
+
 h1 {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .container {
@@ -15,7 +20,7 @@ h1 {
 }
 
 footer {
-    margin-top: 10vh;
+    margin-top: 5vh;
     font-size: 0.9rem;
     text-align: center;
 }
@@ -33,6 +38,7 @@ footer {
     display: block;
     width: 50%;
     text-align: center;
+    padding: 0 10vh;
 }
 
 .proj2 .proj2_slide {
@@ -48,6 +54,7 @@ footer {
     display: block;
     width: 50%;
     text-align: center;
+    padding: 0 10vh;
 }
 
 .proj3 .textos {
@@ -55,6 +62,7 @@ footer {
     display: block;
     width: 50%;
     text-align: center;
+    padding: 0 10vh;
 }
 
 .proj3 img {
@@ -63,4 +71,24 @@ footer {
     float: left;
     margin-bottom: 1vh;
 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 3, 211);
+}
+
+.proj2,
+.proj3 {
+    height: 40vh;
+}
+
+.proj1 {
+    height: 52vh;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-left: 0vh;
 }
